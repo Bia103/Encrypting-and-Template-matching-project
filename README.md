@@ -1,6 +1,36 @@
 # Encrypting-and-Template-matching-project
 In this project, the main purpose is to encrypt and decrypt a photo and then recognize the handwritten numbers from it.
 
+# **First part of the project: Encrypting the photo**
+
+
+![75119560-a7de5f00-568c-11ea-9d28-3bcb832ba485](https://user-images.githubusercontent.com/48888793/75482421-7f68a480-59ad-11ea-8a59-562e2c9cd9f2.png)
+
+The algorithm receives the path to an image(BMP) and a secret key. Using that key the program will permute the pixels and then after another process of changing the color of the pixels from the image resulted also using the secret key, it will result in the encrypted image.
+
+Here is a relevant example:
+
+![75119766-91390780-568e-11ea-92a8-fb17a18703bd](https://user-images.githubusercontent.com/48888793/75482965-7a582500-59ae-11ea-8629-512192f788eb.png)
+
+# **Second part of the project: Decrypting the photo**
+
+Decryption follows similars steps with the encryption, but in reverse.
+
+![75119857-613e3400-568f-11ea-9b70-3b332c20c179](https://user-images.githubusercontent.com/48888793/75484603-c6589900-59b1-11ea-847a-a93de709c6c4.png)
+
+# **The chi test**
+
+As an addition to the encrypting part of the project, I added the chi test which is a statistical method assessing the goodness of fit between a set of observed values and those expected theoretically.
+
+# **Third part of the project: Pattern recognition**
+
+In this part of the project, the algorithm will recognize the handwritten numbers from the decrypted photo and it will draw a rectangle of a certain color around it. (ex: 1 is yellow,7 is orange)
+
+![75374624-4d840f00-58d5-11ea-968d-0dc5b7b20fe3](https://user-images.githubusercontent.com/48888793/75487649-77adfd80-59b7-11ea-9efc-76d2257f28cb.jpg)
+
+
+![decr](https://user-images.githubusercontent.com/48888793/75487800-cbb8e200-59b7-11ea-9c3d-f1ae923c3a8c.png)
+
 Romanian:
 
  Introducere :  Acest proiect abordeaza urmatoarele tematici: criptarea, decriptarea si recunoasterea unor cifre scrise de mana dintr-o imagine in format BMP.
